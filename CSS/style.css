@@ -87,16 +87,6 @@ section h1 {
     font-size: 1.1rem;
 }
 
-.sosial-icon svg {
-    margin-right: 0.7em;
-    margin-bottom: 10px;
-}
-
-.sosial-icon svg:hover {
-    box-shadow: 0 0 20px rgba(212, 0, 255, 0.8);
-}
-
-
 /* And Section Hero */
 
 /* About */
@@ -110,13 +100,19 @@ hr {
 }
 
 #about {
-    min-height: 300px;
-    width: 100;
-    background-color: #171717;
+    min-height: 500px;
+    width: 100%;
     color: #ffff;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin: 80px;
+    padding: 80px 10px;
+}
+
+#about.sosial-icon svg {
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+}
+
+#about.sosial-icon svg:hover {
+    box-shadow: 0 0 20px rgba(212, 0, 255, 0.8);
 }
 
 /* And About */
@@ -128,6 +124,10 @@ hr {
     width: 100%;
     color: #ffff;
     background-color: var(--backgroundColor) !important;
+    padding: 80px 10px;
+    padding top: 80px;
+    padding-bottom: 80px;
+    margin: 5px;
 }
 
 #skills img {
@@ -143,10 +143,9 @@ hr {
 }
 
 #skills .card {
-    background-color: #414558;
-    height: 340px;
+    background-color: var(--backgroundColor);
+    height: 350px;
 }
-
 /* And Skills */
 
 /* Support */
@@ -203,14 +202,14 @@ section.abuabu {
 }
 
 #project img {
-    width: 49%;
-    padding: 10px;
+    width: 100%;
+    padding: 40px;
 }
 
 #project img:hover {
     transition: all 0.2s ease-in-out;
     transform: scale(1.1);
-    color: var(--acsenColor);
+    color: var(--acsenColor) !important;
     box-shadow: 3px 3px 20px var(--acsenColor), -2px 1px 30px var(--mainColor);
 }
 
@@ -219,7 +218,7 @@ section.abuabu {
 /* Section quote */
 
 section.quote {
-  background: #171717;
+  background: var(--backgroundColor);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
