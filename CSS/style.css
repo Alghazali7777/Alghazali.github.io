@@ -59,10 +59,6 @@ section h1 {
     font-weight: 300;
 }
 
-.sosial-icon {
-    display: flex;
-}
-
 /* CTA */
 .btn-custom1 {
     background-color: var(--acsenColor);
@@ -106,6 +102,10 @@ hr {
     padding: 80px 10px;
 }
 
+#about .sosial-icon {
+    display: flex;
+}
+
 #about.sosial-icon svg {
     margin-right: 0.7em;
     margin-bottom: 10px;
@@ -125,7 +125,7 @@ hr {
     color: #ffff;
     background-color: var(--backgroundColor) !important;
     padding: 80px 10px;
-    padding top: 80px;
+    padding-top: 80px;
     padding-bottom: 80px;
     margin: 5px;
 }
@@ -145,6 +145,7 @@ hr {
 #skills .card {
     background-color: var(--backgroundColor);
     height: 350px;
+    margin: 15px;
 }
 /* And Skills */
 
@@ -179,8 +180,8 @@ section.abuabu {
 }
 
 .support img:hover {
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
 
 .support div {
@@ -203,14 +204,15 @@ section.abuabu {
 
 #project img {
     width: 100%;
-    padding: 40px;
+    padding: 10px;
+    margin: 15px;
 }
 
 #project img:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     transform: scale(1.1);
     color: var(--acsenColor) !important;
-    box-shadow: 3px 3px 20px var(--acsenColor), -2px 1px 30px var(--mainColor);
+    box-shadow: 3px 3px 20px var(--acsenColor), -2px 1px 30px var(--mainColor) !important;
 }
 
 /* And PROJECT */
