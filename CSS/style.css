@@ -63,12 +63,12 @@ section h1 {
 .btn-custom1 {
     background-color: var(--acsenColor);
     text-align: center;
-    color: #ffff;
+    color: #fff;
     min-width: 150px;
     height: 45px;
     font-weight: 700;
     font-size: 1.2rem;
-    border-radius: 1.0rem;
+    border-radius: 10px;
 }
 
 .btn-custom1:hover {
@@ -100,19 +100,6 @@ hr {
     width: 100%;
     color: #ffff;
     padding: 80px 10px;
-}
-
-#about .sosial-icon {
-    display: flex;
-}
-
-#about.sosial-icon svg {
-    margin-right: 0.7em;
-    margin-bottom: 10px;
-}
-
-#about.sosial-icon svg:hover {
-    box-shadow: 0 0 20px rgba(212, 0, 255, 0.8);
 }
 
 /* And About */
@@ -149,48 +136,7 @@ hr {
 }
 /* And Skills */
 
-/* Support */
 
-section.abuabu {
-  min-height: 300px;
-  width: 100;
-  color: #ffff;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  margin: 80px;
-  
-}
-.support, .blog {
-  background-color: var(--backgroundColor);  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.support h6 {
-  margin: 0px;
-  margin-top: 20px;
-  padding: 0px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffff;
-}
-.support img {
-  width: 50%;
-  margin: 5px;
-}
-
-.support img:hover {
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
-}
-
-.support div {
-  text-align: center;
-  width: 30%;
-  color: #ffff;
-}
-
-/* And Support */
 
 /* PROJECT */
 #project .container {
@@ -209,10 +155,10 @@ section.abuabu {
 }
 
 #project img:hover {
-    transition: all 0.1s ease-in-out;
-    transform: scale(1.1);
     color: var(--acsenColor) !important;
     box-shadow: 3px 3px 20px var(--acsenColor), -2px 1px 30px var(--mainColor) !important;
+    z-index: 10;
+    transition: 0.8s;
 }
 
 /* And PROJECT */
