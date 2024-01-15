@@ -1,7 +1,7 @@
 :root {
     --mainColor : #000;
     --secondColor : #333646;
-    --acsenColor : #DC84F3;
+    --acsenColor : #7B66FF;
     --bodycolor : #434242;
     --backgroundColor : #171717;
 }
@@ -38,6 +38,7 @@ section h1 {
 /* End Navbar */
 
 /* Section Hero */
+
 .color-acsent {
     color: var(--acsenColor);
 }
@@ -100,7 +101,66 @@ hr {
     width: 100%;
     color: #ffff;
     padding: 80px 10px;
+    background-color: var(--backgroundColor) !important;
 }
+
+.about-img {
+    flex: 1;
+    margin-right: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-img:hover img {
+    transform: scale(1.2);
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.btn-custom2 {
+    background-color: var(--acsenColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.btn-custom2:hover {
+    box-shadow: 0 0 20px rgba(212, 0, 255, 0.8);
+    color: var(--acsenColor);
+    box-shadow: 3px 3px 20px var(--acsenColor), -2px 1px 30px var(--mainColor);
+}
+
 
 /* And About */
 
@@ -110,7 +170,6 @@ hr {
     min-height: 500px;
     width: 100%;
     color: #ffff;
-    background-color: var(--backgroundColor) !important;
     padding: 80px 10px;
     padding-top: 80px;
     padding-bottom: 80px;
